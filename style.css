@@ -1,0 +1,71 @@
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(221, 234, 234);
+}
+
+h1,
+h2 {
+  color: #1072c2;
+}
+h1 {
+  margin-left: 15px;
+  color: #0f5792;
+}
+hr {
+  background-color: #2bf0f7;
+}
+#player1, #player2 {
+  color: #096b6e;
+  background-color: #2bf0f7;
+  border-style: none;
+  border-top-right-radius: 75%;
+}
+
+#gameBoard {
+  background-color: #232323;
+  display: grid;
+  grid-template-columns: 6rem 6rem 6rem;
+  grid-template-rows: 6rem 6rem 6rem;
+  gap: 0.3rem;
+  margin-bottom: 1.5rem;
+  max-width: 18rem;
+  max-height: 18rem;
+  margin-top: 4.5%;
+  margin-left: 15%;
+  background-image: url(./img/azul.gif);
+}
+
+#gameBoard span {
+  background-color: #ddd;
+  display: grid;
+  place-content: center;
+  font-size: 5rem;
+  background-color: rgb(221, 234, 234);
+}
+
+#gameBoard span.win {
+  background-color: #2bf0f7;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+#start {
+  background-color: #0f5792;
+  color: aliceblue;
+  border-radius: 10%;
+  height: 30px;
+  margin-left: 10px;
+  border-style: none;
+}
+button:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+#start:hover {
+  color: rgb(2, 26, 26);
+  background-color: aqua;
+  border-style: none;
+}
